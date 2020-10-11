@@ -30,6 +30,7 @@ class BooksController extends Controller
         $book->create([
             'title' => $request->title,
             'author' => $request->author,
+            'memo' => $request->memo,
             'contents' => $request->contents,
             'scores' => $request->scores,
             'genre' => $request->genre,
