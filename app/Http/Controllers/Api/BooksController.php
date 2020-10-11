@@ -31,7 +31,7 @@ class BooksController extends Controller
             'title' => $request->title,
             'author' => $request->author,
             'contents' => $request->contents,
-            'points' => $request->points,
+            'scores' => $request->scores,
             'genre' => $request->genre,
             'is_done' => $request->is_done,
         ]);
