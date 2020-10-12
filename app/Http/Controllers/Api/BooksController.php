@@ -35,6 +35,7 @@ class BooksController extends Controller
             'scores' => $request->scores,
             'genre' => $request->genre,
             'is_done' => $request->is_done,
+            'finish_date' => $request->finish_date,
         ]);
     }
 
