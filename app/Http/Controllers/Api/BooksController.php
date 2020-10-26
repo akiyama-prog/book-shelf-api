@@ -42,12 +42,13 @@ class BooksController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  Int  $book_id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($book_id)
     {
-        //
+        $book = Book::find($book_id);
+        return $book;
     }
 
     /**
